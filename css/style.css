@@ -202,10 +202,11 @@ header{
   padding: 4px;
 }
 
-.item-about :hover{
+/* .item-about :hover{
   background-color: rgba(40, 47, 53, .7);
   transition: .3s;
 }
+*/
 
 .item-image{
   width: 100%;
@@ -245,8 +246,8 @@ header{
 
 .category{
   background-color: #F2F0ED;
-    padding: 11px 20px;
-    margin-bottom: 50px;
+  padding: 11px 20px;
+  margin-bottom: 50px;
 }
 
 .category ul{
