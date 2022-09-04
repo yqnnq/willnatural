@@ -44,10 +44,11 @@
           <div class="header-list">
             <ul>
               <li class="login"><a href="">login</a></li>
-              <li class="search"><form class="search-container" method="get" action="#">
-              <input type="text" placeholder="keyword">
-              <input type="submit" value="詳細検索">
-              </form></li>
+              <li class="search">
+                <form class="search-container" method="get" action="#">
+                  <input type="text" placeholder="keyword">
+                  <a class="search-btn" href="">詳細設定</a>
+                </form></li>
               <li class="cart"><a href="#"><img src="./image/image3.jpg" alt=""></a></li>
             </ul>
           </div>
@@ -57,22 +58,100 @@
 
   <main class="main-wrapper">
     <div class="mainvisual">
-      <img src="./image/image4.jpg" alt="">
+      <img src="./image/image7のコピー.jpg" alt="">
     </div>
     <nav class="g-nav">
       <ul>
-        <li><a href="">ALL ITEMS</a></li>
-        <li><a href="">RE STOCK</a></li>
-        <li><a href="">CATEGORY</a></li>
-        <li><a href="">LOOKBOOK</a></li>
-        <li><a href="">SNAP</a></li>
+        <li class="g-nav-item"><a class="g-nav-link" href="">ALL ITEMS</a></li>
+        <li class="g-nav-item"><a class="g-nav-link" href="">RE STOCK</a></li>
+        <li class="g-nav-item"><a class="g-nav-link g-nav-category" href="">CATEGORY</a>
+          <div class="category-menu">
+            <div class="category-box">
+              <p><a href="">outer</a></p>
+              <ul>
+                <li><a href="">coat</a></li>
+                <li><a href="">jacket</a></li>
+              </ul>
+            </div>
+            <div class="category-box">
+              <p><a href="">tops</a></p>
+              <ul>
+                <li><a href="">cut&sew</a></li>
+                <li><a href="">knit</a></li>
+                <li><a href="">shirt</a></li>
+                <li><a href="">blouse</a></li>
+              </ul>
+            </div>
+            <div class="category-box">
+              <p><a href="">onepice</a></p>
+              <ul>
+                <li><a href="">onepice</a></li>
+              </ul>
+            </div>
+            <div class="category-box">
+              <p><a href="">all-in-one</a></p>
+              <ul>
+                <li><a href="">all-in-one</a></li>
+              </ul>
+            </div>
+            <div class="category-box">
+              <p><a href="">set up</a></p>
+              <ul>
+                <li><a href="">set up</a></li>
+              </ul>
+            </div>
+            <div class="category-box">
+              <p><a href="">bottom</a></p>
+              <ul>
+                <li><a href="">pants</a></li>
+                <li><a href="">denim</a></li>
+                <li><a href="">skirt</a></li>
+              </ul>
+            </div>
+            <div class="category-box">
+              <p><a href="">accessory</a></p>
+              <ul>
+                <li><a href="">pierce</a></li>
+                <li><a href="">ring</a></li>
+                <li><a href="">necklace</a></li>
+                <li><a href="">bracelet</a></li>
+                <li><a href="">hair accessory</a></li>
+              </ul>
+            </div>
+            <div class="category-box">
+              <p><a href="">goods</a></p>
+              <ul>
+                <li><a href="">hat</a></li>
+                <li><a href="">shoes</a></li>
+                <li><a href="">belt</a></li>
+                <li><a href="">sunglasses</a></li>
+                <li><a href="">bag</a></li>
+                <li><a href="">other</a></li>
+                <li><a href="">stole</a></li>
+              </ul>
+            </div>
+            <div class="category-box">
+              <p><a href="">room wear</a></p>
+              <ul>
+                <li><a href="">room wear</a></li>
+              </ul>
+            </div>
+            <div class="category-box">
+              <p><a href="">swim wear</a></p>
+              <ul>
+                <li><a href="">swim wear</a></li>
+              </ul>
+            </div>
+          </div>
+        <li class="g-nav-item"><a class="g-nav-link" href="">LOOKBOOK</a></li>
+        <li class="g-nav-item"><a class="g-nav-link" href="">SNAP</a></li>
       </ul>
     </nav>
 
     <section id="subvisual">
       <div class="subvisual sub-wrapper">
-      <img src="./image/image6.jpg" alt="">
-      <h2>22'　fallwinter　collection</h2>
+      <img src="./image/image8.jpg" alt="">
+      <h2>22'　summer　collection</h2>
       </div>
     </section>
 
@@ -85,11 +164,12 @@
           </ul>
         </div>
         <div class="item-about">
-        <a href="">
-        <img class="item-image" src="./image/image5.jpg" alt="">
-        <h3 class="item-name">double face shaggy knit vest</h3>
-        <p class="item-price">15,400yen</p>
-        </a>
+          <a href="">
+            <img class="item-image" src="./image/image9.jpg" alt="">
+            <h3 class="item-name">double face shaggy knit vest</h3>
+            <p class="item-price">15,400yen</p>
+            <div></div>
+          </a>
         </div>
       </div>
 
@@ -102,9 +182,10 @@
         </div>
         <div class="item-about">
           <a href="">
-            <img class="item-image" src="./image/image5.jpg" alt="">
+            <img class="item-image" src="./image/image9.jpg" alt="">
             <h3 class="item-name">fiered dot stand collqr OP</h3>
             <p class="item-price">17,490yen</p>
+            <div></div>
           </a>
         </div>
       </div>
@@ -113,14 +194,65 @@
         <div class="item-mark">
           <ul>
             <li class="new">new</li>
-            <li class="restock">re stock</li>
+            <!-- <li class="restock">re stock</li> -->
           </ul>
         </div>
         <div class="item-about">
           <a href="">
-            <img class="item-image" src="./image/image5.jpg" alt="">
+            <img class="item-image" src="./image/image9.jpg" alt="">
             <h3 class="item-name">glassy iridesent flare SK</h3>
             <p class="item-price">11,990yen</p>
+            <div></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="item-box">
+        <div class="item-mark">
+          <ul>
+            <!-- <li class="new">new</li> -->
+            <li class="restock">re stock</li>
+          </ul>
+        </div>
+        <div class="item-about">
+          <a href="">
+            <img class="item-image" src="./image/image9.jpg" alt="">
+            <h3 class="item-name">center slit tabi slip-on</h3>
+            <p class="item-price">10,890yen</p>
+            <div></div>
+          </a>
+        </div>
+      </div>
+      <div class="item-box">
+        <div class="item-mark">
+          <ul>
+            <!-- <li class="new">new</li> -->
+            <li class="restock">re stock</li>
+          </ul>
+        </div>
+        <div class="item-about">
+          <a href="">
+            <img class="item-image" src="./image/image9.jpg" alt="">
+            <h3 class="item-name">no sleeve front haif zip knit OP</h3>
+            <p class="item-price">16,940yen</p>
+            <div></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="item-box">
+        <div class="item-mark">
+          <ul>
+            <!-- <li class="new">new</li>
+            <li class="restock">re stock</li> -->
+          </ul>
+        </div>
+        <div class="item-about">
+          <a href="">
+            <img class="item-image" src="./image/image9.jpg" alt="">
+            <h3 class="item-name">shirt detail long cuffs cut and sew tops</h3>
+            <p class="item-price">11,660yen</p>
+            <div></div>
           </a>
         </div>
       </div>
@@ -134,12 +266,15 @@
         </div>
         <div class="item-about">
           <a href="">
-            <img class="item-image" src="./image/image5.jpg" alt="">
-            <h3 class="item-name">center slit tabi slip-on</h3>
-            <p class="item-price">10,890yen</p>
+            <img class="item-image" src="./image/image9.jpg" alt="">
+            <h3 class="item-name">button flare sleev cotton BL</h3>
+            <p class="item-price">12,870yen</p>
+            <div></div>
           </a>
         </div>
       </div>
+
+
 
       <div class="more-item">
         <a class="btn-more" href="#">more item</a>
@@ -170,8 +305,8 @@
       <div class="footer-logo">
         <h1><a href="#">willfuly</a></h1>
       </div>
-      <div class="footer-item">
-        <div class="footer-nav footer-top">
+      <div class="footer-nav">
+        <div class="footer-nav-top">
           <ul>
             <li><a href="">初めての方へ</a></li>
             <li><a href="">よくある質問</a></li>
@@ -184,15 +319,15 @@
             <li><a href="">メルマガ登録</a></li>
           </ul>
         </div>
-        <div class="footer-bottom">
-          <div class="footer-nav">
+        <div class="footer-nav-bottom">
+          <div class="footer-sns-nav">
             <ul>
-              <li><a href=""><i class="fab fa-instagram"></i>ayaka_fashion</a></li>
+              <li><a href=""><i class="fab fa-instagram"></i>ayakamutoo_fashion</a></li>
               <li><a href=""><i class="fab fa-instagram"></i>fashion_official</a></li>
             </ul>
           </div>
           <div class="footer-copy">
-            <p>&copy; Fashion</p>
+            <span>&copy; Fashion</span>
           </div>
         </div>
         </div>
