@@ -547,9 +547,9 @@ footer{
   }
 
   .subvisual h2{
-    bottom: 50px;
-    right: 15px;
-    font-size: 1.5rem;
+    bottom: 2rem;
+    right: 1rem;
+    font-size: 3vw;
     letter-spacing: 0.5rem;
   }
 
@@ -695,11 +695,13 @@ footer{
   }
 
   .footer-sns-nav ul{
+    align-items: center;
     text-align: center;
   }
 
   .footer-sns-nav ul li{
     width: 50%;
+    padding-right: 0;
   }
 
   .footer-sns-nav a{
