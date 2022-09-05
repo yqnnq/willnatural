@@ -41,7 +41,7 @@ header{
 }
 
 .header-wrapper{
-  width: 100%;
+  width: 1080px;
   height: 68px;
   background-color: #fff;
   border-top: 1px solid #919598;
@@ -50,9 +50,8 @@ header{
   z-index: 5;
 }
 
-
 .header-box{
-  width: 1080px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: nowrap;
