@@ -41,30 +41,31 @@
       <div class="header-wrapper">
         <div class="header-box">
           <h1 class="header-title"><a href="index.html">willfuly</a></h1>
-          <div class="header-list">
+          <nav class="header-list">
             <ul>
               <li class="login"><a href="">login</a></li>
               <li class="search">
                 <form class="search-container" method="get" action="#">
                   <input type="text" placeholder="keyword">
                   <a class="search-btn" href="">詳細設定</a>
-                </form></li>
+                </form>
+              </li>
               <li class="cart"><a href="#"><img src="./image/image3.jpg" alt=""></a></li>
             </ul>
-          </div>
+          </nav>
         </div>
       </div>
     </header>
 
-  <main class="main-wrapper">
+  <main class=" content">
     <div class="mainvisual">
-      <img src="./image/image7のコピー.jpg" alt="">
+      <img src="./image/image7のコピー2.jpg" alt="">
     </div>
     <nav class="g-nav">
       <ul>
-        <li class="g-nav-item"><a class="g-nav-link" href="">ALL ITEMS</a></li>
-        <li class="g-nav-item"><a class="g-nav-link" href="">RE STOCK</a></li>
-        <li class="g-nav-item"><a class="g-nav-link g-nav-category" href="">CATEGORY</a>
+        <li class="g-nav-item n-allitems"><a class="g-nav-link" href="">ALL ITEMS</a></li>
+        <li class="g-nav-item n-restock"><a class="g-nav-link" href="">RE STOCK</a></li>
+        <li class="g-nav-item n-category"><a class="g-nav-link" href="">CATEGORY</a>
           <div class="category-menu">
             <div class="category-box">
               <p><a href="">outer</a></p>
@@ -143,13 +144,13 @@
               </ul>
             </div>
           </div>
-        <li class="g-nav-item"><a class="g-nav-link" href="">LOOKBOOK</a></li>
-        <li class="g-nav-item"><a class="g-nav-link" href="">SNAP</a></li>
+        <li class="g-nav-item n-lookbook"><a class="g-nav-link" href="">LOOKBOOK</a></li>
+        <li class="g-nav-item n-snap"><a class="g-nav-link" href="">SNAP</a></li>
       </ul>
     </nav>
 
     <section id="subvisual">
-      <div class="subvisual sub-wrapper">
+      <div class="subvisual">
       <img src="./image/image8.jpg" alt="">
       <h2>22'　summer　collection</h2>
       </div>
@@ -159,8 +160,8 @@
       <div class="item-box">
         <div class="item-mark">
           <ul>
-          <li class="new">new</li>
-          <li class="restock">re stock</li>
+            <li class="new">new</li>
+            <li class="restock">re stock</li>
           </ul>
         </div>
         <div class="item-about">
@@ -274,8 +275,6 @@
         </div>
       </div>
 
-
-
       <div class="more-item">
         <a class="btn-more" href="#">more item</a>
       </div>
@@ -284,6 +283,7 @@
 
     <section id="category" class="wrapper">
       <div class="category">
+        <h4 class="category-title-sp">PICK UP CATEGORY</h4>
         <ul>
           <li class="category-title"><h4>PICK UP CATEGORY</h4></li>
           <li class="category-item"><a href="">all item</a></li>
@@ -301,7 +301,8 @@
   </main>
 
   <footer>
-    <div class="footer-content">
+    <div class="footer-wrapper">
+    <div class="footer-box">
       <div class="footer-logo">
         <h1><a href="#">willfuly</a></h1>
       </div>
@@ -313,7 +314,7 @@
             <li><a href="">利用規約</a></li>
             <li><a href="">特定商取引法</a></li>
             <li><a href="">プライバシーポリシー</a></li>
-            <li><a href="">クッキーポリシー</a></li>
+            <li class="cookie"><a href="">クッキーポリシー</a></li>
             <li><a href="">お問い合わせ</a></li>
             <li><a href="">会社概要</a></li>
             <li><a href="">メルマガ登録</a></li>
@@ -326,12 +327,16 @@
               <li><a href=""><i class="fab fa-instagram"></i>fashion_official</a></li>
             </ul>
           </div>
+          <div class="footer-pc">
+            <a href="">PC表示</a>
+          </div>
           <div class="footer-copy">
             <span>&copy; Fashion</span>
           </div>
         </div>
-        </div>
       </div>
+      </div>
+    </div>
     </div>
   </footer>
 
