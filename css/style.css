@@ -619,6 +619,10 @@ footer{
     padding-bottom: 18px;
   }
 
+  .h-member .guest{
+    font-size: 16px;
+  }
+
   .h-list{
     border-top: 1px solid #A6A6A6;
     padding: 25px 0 20px 0;
