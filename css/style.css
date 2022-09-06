@@ -616,7 +616,7 @@ footer{
   }
 
   .h-member{
-    padding-bottom: 18px;
+    padding-bottom: 20px;
   }
 
   .h-member .guest{
@@ -625,12 +625,12 @@ footer{
 
   .h-list{
     border-top: 1px solid #A6A6A6;
-    padding: 25px 0 20px 0;
+    padding: 20px 0;
   }
 
   .h-sns{
     border-top: 1px solid #A6A6A6;
-    padding: 25px 0 25px 0;
+    padding: 25px 0;
   }
 
   .h-sns li a{
@@ -640,7 +640,7 @@ footer{
 
   .h-sns i{
     font-size: 25px;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
     vertical-align: middle;
   }
 
