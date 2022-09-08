@@ -46,23 +46,12 @@ header{
   border-top: 1px solid #919598;
   border-bottom: 1px solid #919598;
   position: fixed;
+  padding: 0 10px;
   z-index: 5
 }
 
-/* .header-wrapper{
-  width: 100%;
-  margin: 0 auto;
-  height: 68px;
-  background-color: #fff;
-  border-top: 1px solid #919598;
-  border-bottom: 1px solid #919598;
-  position: fixed;
-  z-index: 5;
-} */
-
-
 .header-box{
-  width: 1080px;
+  max-width: 1080px;
   /* height: 68px; */
   margin: 0 auto;
   display: flex;
@@ -106,6 +95,7 @@ header{
 .search-btn{
   display: inline-block;
   width: 63px;
+  height: 30px;
   font-size: 12px;
   background: #919598;
   border-radius: 4px;
@@ -113,6 +103,7 @@ header{
   text-align: center;
   line-height: 30px;
   margin-left: 5px;
+  padding-top: 1px;
 }
 
 .search-container input[type="text"] {
@@ -134,14 +125,14 @@ header{
   color: #ffffff;
 } */
 
-  .cart{
-    padding: 14px 10px;
-  }
+.cart{
+  padding: 14px 0 14px 30px;
+}
 
-  .cart img{
-    height: 40px;
-    width: 40px;
-  }
+.cart img{
+  height: 40px;
+  width: 40px;
+}
 
 /* mainvisual */
 
@@ -377,11 +368,14 @@ header{
 
 .category-title{
   margin-right: 20px;
+  text-align: center;
 }
 
 .category-title h4{
   text-align: center;
   font-size: 16px;
+  line-height: 26px;
+  padding-top: 2px;
 }
 
 .category-title-sp{
@@ -406,8 +400,10 @@ footer{
 }
 
 .footer-wrapper{
-  width: 100%;
+  max-width: 1080px;
+  padding: 0 10px;
   margin-bottom: 71px;
+  /* margin: 0 10px 71px 10px; */
   border-top: 1px solid #A6A6A6;
   position: relative;
 }
@@ -502,6 +498,7 @@ footer{
   header{
     height: 65px;
     border: none;
+    padding: 0;
   }
 
   .header-box{
@@ -876,6 +873,7 @@ footer{
 
   .footer-wrapper{
     margin-bottom: 0;
+    padding: 0;
   }
 
   .footer-logo{
