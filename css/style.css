@@ -507,7 +507,7 @@ footer{
 
   .header-title{
     letter-spacing: 0.2em;
-    padding-top: 7px;
+    padding-top: 10px;
     padding-left: 15px;
   }
 
@@ -518,7 +518,7 @@ footer{
   }
 
   .cart{
-    padding: 14px 10px;
+    padding: 15px 10px;
     height: 60px;
     width: 60px;
   }
@@ -569,15 +569,15 @@ footer{
   }
 
   .hamburger span:nth-child(1){
-    top: 22px;
+    top: 24px;
     left: 20px;
   }
   .hamburger span:nth-child(2){
-    top: 30px;
+    top: 32px;
     left: 20px;
   }
   .hamburger span:nth-child(3){
-    top: 38px;
+    top: 40px;
     left: 20px;
   }
 
