@@ -583,12 +583,14 @@ footer{
 
   .hamburger.active span:nth-child(1){
     top: 30px;
+    left: 18px;
     transform: translate(0, 0) rotate(-45deg);
   }
 
   .hamburger.active span:nth-child(2),
   .hamburger.active span:nth-child(3){
     top: 30px;
+    left: 18px;
     transform: translate(0, 0) rotate(45deg);
   }
 
