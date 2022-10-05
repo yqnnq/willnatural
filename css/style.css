@@ -596,6 +596,11 @@ footer{
     overflow-x: hidden;
   }
 
+  body.fixed {
+    height:100%;
+    overflow:hidden;
+  }
+
 
   /* header */
   header{

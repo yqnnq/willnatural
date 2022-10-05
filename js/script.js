@@ -7,9 +7,11 @@ $(function () {
         if ($(this).hasClass('active')) {
           $('.hamburger-nav').addClass('active');
           $('.mask').addClass('active');
+          $('body').addClass('fixed');
         } else {
           $('.hamburger-nav').removeClass('active');
           $('.mask').removeClass('active');
+          $('body').removeClass('fixed');
         }
 
     });
@@ -34,7 +36,7 @@ $(function () {
 });
 
 
-// page-top
+// ページトップボタン
 $(window).on('scroll',function(){
   if ($(this).scrollTop() > 200) {
     $('.page-top').addClass('UpMove');
@@ -45,7 +47,7 @@ $(window).on('scroll',function(){
   }
 });
 
-// #page-topをクリックした際の設定
+// ページトップへ戻る
 $(function() {
   $('.page-top a').on('click',function(){
     $('body,html').animate({
@@ -70,4 +72,10 @@ $(window).on('scroll',function(){
 });
 
 
-// $(window).on('click',function(){
+// checkeditem
+$(function () {
+  $('.item-about').on('click', function () {
+    $('#checkeditem').addClass('open');
+    return false;
+  });
+});
