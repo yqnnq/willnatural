@@ -15,12 +15,15 @@
   <meta property="og:image" content="">
   <meta property="og:site_name" content="">
   <script src="https://kit.fontawesome.com/5f0f6ee4dd.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
+
   <link rel="icon" href="/icon/favicon.ico">
   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./js/slick/slick.css">
+  <link rel="stylesheet" href="./js/slick/slick-theme.css">
   <link rel="stylesheet" href="./css/style.css">
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="./js/script.js"></script>
 </head>
 
 <body>
@@ -172,8 +175,9 @@
     </div>
     <nav class="g-nav">
       <ul>
-        <li class="g-nav-item n-allitems"><a class="g-nav-link" href="">ALL ITEMS</a></li>
-        <li class="g-nav-item n-restock"><a class="g-nav-link" href="">RE STOCK</a></li>
+        <li class="g-nav-item"><a class="g-nav-link" href="">NEW ITEMS</a></li>
+        <li class="g-nav-item"><a class="g-nav-link" href="">COMING SOON</a></li>
+        <li class="g-nav-item"><a class="g-nav-link" href="">RE STOCK</a></li>
         <li class="g-nav-item n-category"><a class="g-nav-link" href="">CATEGORY</a>
           <div class="category-menu">
             <div class="category-box">
@@ -253,8 +257,8 @@
               </ul>
             </div>
           </div>
-        <li class="g-nav-item n-lookbook"><a class="g-nav-link" href="">LOOKBOOK</a></li>
-        <li class="g-nav-item n-snap"><a class="g-nav-link" href="">SNAP</a></li>
+        <li class="g-nav-item"><a class="g-nav-link" href="">LOOKBOOK</a></li>
+        <li class="g-nav-item"><a class="g-nav-link" href="">SNAP</a></li>
       </ul>
     </nav>
 
@@ -262,6 +266,39 @@
       <div class="subvisual">
       <img src="./image/image8.jpg" alt="">
       <h2>22'　summer　collection</h2>
+      </div>
+    </section>
+
+    <section id="topics">
+      <p class="section-title">TOPICS</p>
+      <ul class="topics-slider">
+        <li>
+          <a href="#">
+            <img src="./image/topics1.jpg" alt="topics">
+            <div class="topics-text">topics1</div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./image/topics2.jpg" alt="topics">
+            <div class="topics-text">topics2</div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./image/topics3.jpg" alt="topics">
+            <div class="topics-text">topics3</div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./image/topics4.jpg" alt="topics">
+            <div class="topics-text">topics4</div>
+          </a>
+        </li>
+      </ul>
+      <div class="more-btn">
+        <a href="#">more topics</a>
       </div>
     </section>
 
@@ -435,8 +472,8 @@
         </div>
       </div>
 
-      <div class="more-item">
-        <a class="btn-more" href="#">more item</a>
+      <div class="more-btn">
+        <a href="#">more item</a>
       </div>
 
     </section>
@@ -500,9 +537,9 @@
               <li><a href=""><i class="fab fa-instagram"></i>fashion_official</a></li>
             </ul>
           </div>
-          <div class="footer-pc">
+          <!-- <div class="footer-pc">
             <a href="">PC表示</a>
-          </div>
+          </div> -->
           <div class="footer-copy">
             <span>&copy; Fashion</span>
           </div>
@@ -510,8 +547,12 @@
       </div>
       </div>
     </div>
-    </div>
   </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="./js/slick/slick.min.js"></script>
+<script src="./js/script.js"></script>
 
 </body>
 
