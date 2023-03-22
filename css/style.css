@@ -283,6 +283,7 @@ navi
 
 .n-category>a:hover{
   font-size: 17px;
+  transition: all .3s;
 }
 
 .category-menu{
