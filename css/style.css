@@ -422,6 +422,11 @@ topics
   padding: 0 5px;
 }
 
+.topics-slider li a:hover{
+  opacity: .7;
+  transition: opacity .3s;
+}
+
 .topics-text{
   position: absolute;
   bottom: 2%;
@@ -718,6 +723,8 @@ category
 }
 
 .category-item{
+  display: flex;
+  align-items: center;
   background-color: #fff;
   padding: 4px 10px;
   margin: 0 7px 0 0;
