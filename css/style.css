@@ -123,6 +123,7 @@ header{
 }
 
 .header-title{
+  font-size: 26px;
   letter-spacing: 0.1em;
 }
 
@@ -878,6 +879,7 @@ footer{
 }
 
 .footer-logo{
+  font-size: 26px;
   padding-top: 20px;
   letter-spacing: 0.1em;
 }
